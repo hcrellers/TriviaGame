@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: 'Tangerine', cursive;
+}
+
+
+body {
+    background-image: url("../images/wm.jpg");
+    background-repeat:no-repeat;
+    background-position: 50% 10%;
+    background-color: black;
+
+  
+
+}
+
+#background {
+    background-color: peachpuff;
+    opacity: 0.8;
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.wrapper {
+border-style: hidden;
+height: 500px;
+width: 400px;
+margin: auto;
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: 36px;
+text-align: center;
+}
+
+h2 {
+    border-style: solid 10px bold;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: 40px;
+}
+
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+    margin: 0 35%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 24px;
+}
+
+.choices:hover {
+	background-color:rgb(206, 138, 99);
+	color: white;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+html {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 36px;
+
+}
