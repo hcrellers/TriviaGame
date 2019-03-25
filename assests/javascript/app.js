@@ -1,5 +1,10 @@
 $(document).ready(function() {
-    console.log( "ready!" );
+	console.log( "ready!" );
+	$(document).click(function () {
+		console.log("music!")
+		$('#audio')[0].play();
+	
+	});
 
     var questionCounter = 0;
     var time = 20;
@@ -10,49 +15,49 @@ $(document).ready(function() {
         question: "Which fruit comes from the Nahuatl word ahuacatl meaning testicle?",
         choices: ["apple", "avocado", "apricot", "honeydew melon"],
         correctAnswer: "avocado",
-        image: "<img src='https://media.giphy.com/media/OgfejiBYdTHXO/giphy.gif'/>"
+        image: "<img src='https://media.giphy.com/media/OgfejiBYdTHXO/giphy.gif' height='300px' width='300px'/>"
     },
     {
         question: "Which word got its origin from a ball of yarn?",
         choices: ["clue", "ball", "hank", "barn"],
         correctAnswer: "clue",
-        image: "<img src='https://media.giphy.com/media/l4hLFO94MQCETLUDS/giphy.gif'>"
+        image: "<img src='https://media.giphy.com/media/l4hLFO94MQCETLUDS/giphy.gif'height='300px' width='300px'>"
     },
     {
         question: "What was originally a gender neutral term?",
         choices: ["humankind", "woman", "man", "creature"],
         correctAnswer: "man",
-        image: "<img src='https://media.giphy.com/media/pL7rhSZ6kkYNi/giphy.gif'>"
+        image: "<img src='https://media.giphy.com/media/pL7rhSZ6kkYNi/giphy.gif'height='300px' width='300px'>"
     },
     {
         question: "What word meant female who is sexually active, socially her own person and not bound by any man?",
         choices: ["goddess", "wifman", "hussey", "virgin"],
         correctAnswer: "virgin",
-        image: "<img src='https://media.giphy.com/media/gwa3tD0nCJL6U/giphy.gif'>"
+        image: "<img src='https://media.giphy.com/media/gwa3tD0nCJL6U/giphy.gif'height='300px' width='300px'>"
     },
     {
         question: "Which word originally meant 'observe the stars'?",
         choices: ["astronomy", "astrology", "consider", "observitory"],
         correctAnswer: "consider",
-        image: "<img src='https://media.giphy.com/media/XN8pBJ6HrLTOM/giphy.gif'>"
+        image: "<img src='https://media.giphy.com/media/XN8pBJ6HrLTOM/giphy.gif'height='300px' width='300px'>"
     },
     {
         question: "Which place was known as 'a place where we were naked'?",
         choices: ["sauna", "gymnasium", "shower", "pool"],
         correctAnswer: "gymnasium",
-        image: "<img src='https://media.giphy.com/media/11aJifhO2Mvn3y/giphy.gif'>"
+        image: "<img src='https://media.giphy.com/media/11aJifhO2Mvn3y/giphy.gif'height='300px' width='300px'>"
     },
     {
         question: "Which word has an orgin of a story of a man using cow puss to fight small pox?",
         choices: ["penicillin", "vaccine", "tylenol", "tentus"],
         correctAnswer: "vaccine",
-        image: "<img src='https://media.giphy.com/media/3o7TKw1miUvF2Y3xT2/giphy.gif'>"
+        image: "<img src='https://media.giphy.com/media/3o7TKw1miUvF2Y3xT2/giphy.gif'height='300px' width='300px'>"
     },
     {
         question: "What word means the 'pain of returning home'?",
         choices: ["nostalgia", "institution", "property", "family"],
         correctAnswer: "nostalgia",
-        image: "<img src='https://media.giphy.com/media/3oszKwQOeGASATyeyI/giphy.gif'>"
+        image: "<img src='https://data.whicdn.com/images/214490284/large.jpg'height='300px' width='300px'>"
     }];
 
  

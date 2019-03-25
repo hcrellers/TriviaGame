@@ -70,3 +70,28 @@ html {
     font-size: 36px;
 
 }
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
+
+    h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 60px;
+        font-family: 'Tangerine', cursive;
+    }
+    
+    #background {
+        background-color: peachpuff;
+        opacity: 0.8;
+        height: 600px;
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+.gif {
+      
+    height: 200px;
+    width: 400px;
+
+}
+}
